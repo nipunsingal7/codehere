@@ -17,6 +17,11 @@ template <class x>
 int cal::sum(x a,x b)
 {cout<<"sum is:"<<a+b;
 }
+ 
+template <class y>
+int cal::sub(y a,y b)
+{cout<<"sub is:"<<a-b;
+}
 
 
 int main()
