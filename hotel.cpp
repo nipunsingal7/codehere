@@ -146,3 +146,27 @@ fout.close();
 
 //END OF BOOKING FUNCTION
 
+//START OF MAIN PROGARM
+
+
+int main()
+{
+
+hotel h;
+
+  system("cls");
+
+cout<<"\n\t\t\t****************************";
+cout<<"\n\t\t\t* HOTEL MANAGEMENT PROJECT *";
+cout<<"\n\t\t\t****************************";
+cout<<"\n\n\t\tDeveloped By:";
+cout<<"\t nipun";
+cout<<"\n\n\n\n\n\n\n\t\t\t\t\tPress any key to continue....!!";
+
+getch();
+
+h.main_menu();
+return 0;
+}
+
+//END OF MAIN PROGRAM
